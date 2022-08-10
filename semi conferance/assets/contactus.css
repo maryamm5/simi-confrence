@@ -1,0 +1,98 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Global Rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none !important;
+    list-style: none !important;
+  }
+  body{
+    align-items: center;
+  }
+ 
+  .contact{
+    background-color: rgba(0, 0, 0, 0.075);
+    
+    width: 130rem;
+    height: 80rem;
+    margin-bottom: 0%;
+
+}
+#two{
+
+    width: 20rem;
+    height: 20rem;
+    background-color: #288eb7;
+    top: 5rem;
+    margin-bottom: 0%;
+    margin-right:20rem ;
+    
+   
+    
+    
+    } 
+.head{
+    background-color: #c8d7f1;
+    border-radius: 5px;
+    margin-top: -40px;
+    align-items: center;
+    padding-right: 30rem;
+}
+.effect-1{
+    border: 0;
+    outline: none;
+    width: 200px;
+    padding:7px 0 ;
+    border-bottom: 1px solid #ccc;
+}
+.effect-1 ~ .focus-border{ 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color:#dee7f6; 
+    transition: 0.4s;
+    border-bottom: 1px solid #ccc
+}
+   
+.effect-1:focus ~ .focus-border{
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+}
+.btn1{
+    background:#dee7f6; 
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+}
+
+#all{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    justify-content: center;
+    border: 1px;
+    box-sizing: none;
+    margin-right: 20rem;
+    margin-left: 20rem;
+
+}
+#inputs{
+    padding-left: 10rem;
+    
+    margin-bottom: 0%;
+
+}
+.butn1{
+    padding-top: 2rem;
+}
